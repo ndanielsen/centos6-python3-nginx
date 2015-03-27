@@ -1,0 +1,5 @@
+nginx:
+  image: danzilla/centos6-python3-nginx
+  command: supervisord -n
+  ports:
+    - "80:80"
